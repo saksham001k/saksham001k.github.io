@@ -1,26 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saksham Katiyar</title>
+    <meta name="description" content="Portfolio of Saksham Katiyar, B.Tech CSE student at UPES.">
+    <title>Saksham Katiyar | Portfolio</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: Arial, sans-serif; background: #f5f7fa; color: #1f2937; line-height: 1.6; }
+        header { background: #12365c; color: white; padding: 60px 20px; text-align: center; }
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { margin: 8px 0; }
+        nav { margin-top: 20px; }
+        nav a { color: white; margin: 0 10px; }
+        main { width: min(1000px, 92%); margin: 35px auto; }
+        section { background: white; padding: 25px; margin-bottom: 22px; border-radius: 10px; border: 1px solid #dce3ec; }
+        h2 { color: #12365c; }
+        .projects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+        .card { border: 1px solid #dce3ec; padding: 20px; border-radius: 8px; }
+        .button { display: inline-block; margin-top: 8px; padding: 9px 15px; background: #176b3a; color: white; text-decoration: none; border-radius: 5px; }
+        footer { text-align: center; background: #12365c; color: white; padding: 18px; }
+        @media (max-width: 650px) { .projects { grid-template-columns: 1fr; } header h1 { font-size: 2rem; } }
+    </style>
 </head>
-
 <body>
+    <header>
+        <h1>Saksham Katiyar</h1>
+        <p>B.Tech Computer Science Engineering | UPES</p>
+        <p>Backend Development • AI Projects • Web Development</p>
+        <nav><a href="#about">About</a><a href="#work">My Work</a><a href="https://github.com/saksham001k">GitHub</a></nav>
+    </header>
 
-    <h1>Saksham Katiyar</h1>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a Computer Science Engineering student at UPES. I enjoy building web applications, backend APIs and practical AI projects while learning through experiments and project work.</p>
+        </section>
 
-    <p>B.Tech Computer Science Engineering</p>
+        <section id="work">
+            <h2>My Work</h2>
+            <div class="projects">
+                <article class="card">
+                    <h3>Backend Development Coursework</h3>
+                    <p>Unit 1 theory tasks and laboratory experiments covering HTML, CSS, responsive design, Node.js, Express, Flask, FastAPI, sessions, cookies and server-side rendering.</p>
+                    <p><strong>Status:</strong> Unit 1 and lab work through Experiment 12B completed.</p>
+                    <a class="button" href="https://github.com/saksham001k/Backend-Development-">View Repository</a>
+                </article>
+                <article class="card">
+                    <h3>GitHub Projects</h3>
+                    <p>Explore my repositories and the projects I am developing as part of my academic and personal learning.</p>
+                    <a class="button" href="https://github.com/saksham001k">View GitHub Profile</a>
+                </article>
+            </div>
+        </section>
+    </main>
 
-    <h2>My Work</h2>
-
-    <p>
-        <a href="https://github.com/saksham001k">
-            GitHub Profile
-        </a>
-    </p>
-
+    <footer>&copy; 2026 Saksham Katiyar</footer>
 </body>
-
 </html>
