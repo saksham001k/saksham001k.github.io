@@ -9,12 +9,13 @@ Personal coursework website for UPES Backend Development.
 
 ## Content
 
-The portal links to six Unit 1 theory tasks, nine lab experiments, Exam01, Exam01B, and [two assignments](https://github.com/saksham001k/Backend-Development-/tree/main/Assignment). Its repository browser retrieves files from the coursework repository.
+The portal links to six Unit 1 theory tasks, eleven lab experiments, Exam01, Exam01B, and [two assignments](https://github.com/saksham001k/Backend-Development-/tree/main/Assignment). Its repository browser retrieves files from the coursework repository.
 
-## Latest update — 1 October 2026
+## Latest update — 27 October 2026
 
-Moved the Notes App to Assignment 1, added the PostgreSQL JSONB and MongoDB Assignment 2, and aligned Theory Task 1 with its report. The Assignment 2 timing table awaits measurements from a local database.
+Added [Experiment 15](https://github.com/saksham001k/Backend-Development-/tree/main/LAB/Exp15) to the portal and lab table. Both Django lab manuals are covered in one folder: SQLite CRUD, Admin, reusable templates and static CSS, JavaScript and logo assets. Also added the combined [Experiment 7/8](https://github.com/saksham001k/Backend-Development-/tree/main/LAB/Exp7_8) ES6 and DOM exercise. Updated the lab counts and latest experiment indicator.
 
 ## Maintenance
 
 Edit `index.html` to update the portal. Keep its lab table and counts aligned with the coursework repository. GitHub Pages serves this static site; Express and database applications must run separately.
+
