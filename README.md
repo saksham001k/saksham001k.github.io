@@ -9,13 +9,16 @@ Personal coursework website for UPES Backend Development.
 
 ## Content
 
-The portal links to six Unit 1 theory tasks, eleven lab experiments, Exam01, Exam01B, and [two assignments](https://github.com/saksham001k/Backend-Development-/tree/main/Assignment). Its repository browser retrieves files from the coursework repository.
+The portal links to 15 theory exercises across Units 1–3, eleven lab experiments, Exam01, Exam01B, and [two assignments](https://github.com/saksham001k/Backend-Development-/tree/main/Assignment). Its repository browser retrieves files from the coursework repository.
 
-## Latest update — 27 October 2026
+## Latest update — 28 October 2026
 
-Added [Experiment 15](https://github.com/saksham001k/Backend-Development-/tree/main/LAB/Exp15) to the portal and lab table. Both Django lab manuals are covered in one folder: SQLite CRUD, Admin, reusable templates and static CSS, JavaScript and logo assets. Also added the combined [Experiment 7/8](https://github.com/saksham001k/Backend-Development-/tree/main/LAB/Exp7_8) ES6 and DOM exercise. Updated the lab counts and latest experiment indicator.
+Added [Unit 3 L25–L28](https://github.com/saksham001k/Backend-Development-/tree/main/Theory/Unit3): Express setup, Django setup, middleware/routing and third-party API integration. L26 holds one Django project extended by L27 and L28. Express's root HTTP check and 14 Django tests passed. Updated the theory count, navigation and lecture links.
+
+[Theory index](https://github.com/saksham001k/Backend-Development-/blob/main/Theory/README.md). Unit 2 L17–L24 and Unit 3 L29 onward remain pending; the site does not claim continuous completion through L28.
 
 ## Maintenance
 
 Edit `index.html` to update the portal. Keep its lab table and counts aligned with the coursework repository. GitHub Pages serves this static site; Express and database applications must run separately.
+
 
