@@ -9,9 +9,13 @@ Personal coursework website for UPES Backend Development.
 
 ## Content
 
-The portal links to 15 theory exercises across Units 1–3, eleven lab experiments, Exam01, Exam01B, and [two assignments](https://github.com/saksham001k/Backend-Development-/tree/main/Assignment). Its repository browser retrieves files from the coursework repository.
+The portal links to 15 theory exercises across Units 1–3, one [Unit 4 FastAPI Docker hands-on](https://github.com/saksham001k/fastapi-docker-handson), eleven lab experiments, Exam01, Exam01B, and [two assignments](https://github.com/saksham001k/Backend-Development-/tree/main/Assignment). Its repository browser retrieves files from the coursework repository.
 
-## Latest update — 28 October 2026
+## Latest update — 17 November 2026
+
+Added the Unit 4 Docker hands-on section with links to the separate project repository, course reference, run instructions and successful Actions run. API tests, Docker build, Nginx load balancing, multi-platform publishing and published-image checks passed. Local Compose and API requests were also confirmed on my Mac. The separate visible source-change demonstration remains to be recorded; the portal does not claim all Unit 4 work is complete.
+
+## Previous update — 28 October 2026
 
 Added [Unit 3 L25–L28](https://github.com/saksham001k/Backend-Development-/tree/main/Theory/Unit3): Express setup, Django setup, middleware/routing and third-party API integration. L26 holds one Django project extended by L27 and L28. Express's root HTTP check and 14 Django tests passed. Updated the theory count, navigation and lecture links. Also extended the existing LAB/Exp15 To-Do app with the L28 external API activity; all 20 lab tests passed.
 
